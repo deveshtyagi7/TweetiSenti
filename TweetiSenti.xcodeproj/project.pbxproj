@@ -13,7 +13,63 @@
 		1072FB6424B843D000F83793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1072FB6224B843D000F83793 /* Main.storyboard */; };
 		1072FB6624B843D100F83793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1072FB6524B843D100F83793 /* Assets.xcassets */; };
 		1072FB6924B843D100F83793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1072FB6724B843D100F83793 /* LaunchScreen.storyboard */; };
+		1072FB7124B843DD00F83793 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1072FB7024B843DD00F83793 /* TweetSentimentClassifier.mlmodel */; };
+		1072FB8524B8440500F83793 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1072FB7B24B843FD00F83793 /* SwifteriOS.framework */; };
+		1072FB8624B8440500F83793 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1072FB7B24B843FD00F83793 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F96A6D18B009960F0F0DECAD /* Pods_TweetiSenti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A364570C72B7AE64413FD2 /* Pods_TweetiSenti.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1072FB7A24B843FD00F83793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		1072FB7C24B843FD00F83793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		1072FB7E24B843FD00F83793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		1072FB8024B843FD00F83793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		1072FB8224B843FD00F83793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1072FB8724B8440500F83793 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1072FB8624B8440500F83793 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1072FB5924B843D000F83793 /* TweetiSenti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetiSenti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +80,11 @@
 		1072FB6524B843D100F83793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1072FB6824B843D100F83793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1072FB6A24B843D100F83793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1072FB7024B843DD00F83793 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		1072FB7224B843FD00F83793 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../Downloads/Swifter-master/Swifter.xcodeproj"; sourceTree = "<group>"; };
+		69A364570C72B7AE64413FD2 /* Pods_TweetiSenti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetiSenti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6AAEE26517EC3D4D228923 /* Pods-TweetiSenti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetiSenti.release.xcconfig"; path = "Target Support Files/Pods-TweetiSenti/Pods-TweetiSenti.release.xcconfig"; sourceTree = "<group>"; };
+		BFD4142089A6C8FD0985564F /* Pods-TweetiSenti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetiSenti.debug.xcconfig"; path = "Target Support Files/Pods-TweetiSenti/Pods-TweetiSenti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1072FB8524B8440500F83793 /* SwifteriOS.framework in Frameworks */,
+				F96A6D18B009960F0F0DECAD /* Pods_TweetiSenti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +103,11 @@
 		1072FB5024B843D000F83793 = {
 			isa = PBXGroup;
 			children = (
+				1072FB7224B843FD00F83793 /* Swifter.xcodeproj */,
 				1072FB5B24B843D000F83793 /* TweetiSenti */,
 				1072FB5A24B843D000F83793 /* Products */,
+				1072FB8424B8440500F83793 /* Frameworks */,
+				349AEC4F97DD3498879871DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				1072FB5C24B843D000F83793 /* AppDelegate.swift */,
+				1072FB7024B843DD00F83793 /* TweetSentimentClassifier.mlmodel */,
 				1072FB5E24B843D000F83793 /* SceneDelegate.swift */,
 				1072FB6024B843D000F83793 /* ViewController.swift */,
 				1072FB6224B843D000F83793 /* Main.storyboard */,
@@ -67,6 +134,36 @@
 			path = TweetiSenti;
 			sourceTree = "<group>";
 		};
+		1072FB7324B843FD00F83793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1072FB7B24B843FD00F83793 /* SwifteriOS.framework */,
+				1072FB7D24B843FD00F83793 /* SwifterMac.framework */,
+				1072FB7F24B843FD00F83793 /* SwifterDemoiOS.app */,
+				1072FB8124B843FD00F83793 /* SwifterDemoMac.app */,
+				1072FB8324B843FD00F83793 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1072FB8424B8440500F83793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69A364570C72B7AE64413FD2 /* Pods_TweetiSenti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349AEC4F97DD3498879871DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFD4142089A6C8FD0985564F /* Pods-TweetiSenti.debug.xcconfig */,
+				AD6AAEE26517EC3D4D228923 /* Pods-TweetiSenti.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1072FB6D24B843D100F83793 /* Build configuration list for PBXNativeTarget "TweetiSenti" */;
 			buildPhases = (
+				C9F5C96203182CB620E373E8 /* [CP] Check Pods Manifest.lock */,
 				1072FB5524B843D000F83793 /* Sources */,
 				1072FB5624B843D000F83793 /* Frameworks */,
 				1072FB5724B843D000F83793 /* Resources */,
+				1072FB8724B8440500F83793 /* Embed Frameworks */,
+				ED583074FF597300944073F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +213,56 @@
 			mainGroup = 1072FB5024B843D000F83793;
 			productRefGroup = 1072FB5A24B843D000F83793 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1072FB7324B843FD00F83793 /* Products */;
+					ProjectRef = 1072FB7224B843FD00F83793 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1072FB5824B843D000F83793 /* TweetiSenti */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1072FB7B24B843FD00F83793 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 1072FB7A24B843FD00F83793 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1072FB7D24B843FD00F83793 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 1072FB7C24B843FD00F83793 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1072FB7F24B843FD00F83793 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 1072FB7E24B843FD00F83793 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1072FB8124B843FD00F83793 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 1072FB8024B843FD00F83793 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1072FB8324B843FD00F83793 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 1072FB8224B843FD00F83793 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1072FB5724B843D000F83793 /* Resources */ = {
@@ -133,6 +277,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9F5C96203182CB620E373E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TweetiSenti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED583074FF597300944073F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TweetiSenti/Pods-TweetiSenti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TweetiSenti/Pods-TweetiSenti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TweetiSenti/Pods-TweetiSenti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1072FB5524B843D000F83793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +326,7 @@
 			files = (
 				1072FB6124B843D000F83793 /* ViewController.swift in Sources */,
 				1072FB5D24B843D000F83793 /* AppDelegate.swift in Sources */,
+				1072FB7124B843DD00F83793 /* TweetSentimentClassifier.mlmodel in Sources */,
 				1072FB5F24B843D000F83793 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +469,7 @@
 		};
 		1072FB6E24B843D100F83793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD4142089A6C8FD0985564F /* Pods-TweetiSenti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +488,7 @@
 		};
 		1072FB6F24B843D100F83793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6AAEE26517EC3D4D228923 /* Pods-TweetiSenti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
